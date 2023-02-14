@@ -1,17 +1,25 @@
-# Template Repo for ML Project
+# ML project
+This is a notebook on our ML project.
 
-This template repo will give you a good starting point for your second project. Besides the files used for creating a virtual environment, you will find a simple example of how to build a simple model in a python script. This is maybe the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
 
-The data used for this is: [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
+Topic: Real estate agent's recommendations for a customer (buyer), based on data about house units sold in one year.
+Team: Christopher Hedemann, Stephen Kelly, Sarah Wiesner
+Bootcamp: neuefische Data Science 01/2023
 
----
-## Requirements and Environment
+## Contents
 
-Requirements:
-- pyenv with Python: 3.9.8
+This repository contains the Jupyter notebook [ML project](./ml_project_notebook.ipynb) as its main item. In this notebook, all the data work, including cleaning, analysis, modelling and visualization is collected. 
 
-Environment: 
+Furthermore, you can find the [presentation](./tbd.pdf) given within the neuefische DS bootcamp.
 
+
+## Requirements and Setup
+
+- pyenv
+- python==3.9.8
+
+
+This repo contains a [requirements.txt](./requirements.txt) file with a list of all the packages and dependencies you will need.
 For installing the virtual environment you can either use the Makefile and run `make setup` or install it manually with the following commands: 
 
 ```Bash
@@ -30,13 +38,13 @@ In order to train the model and store test data in the data folder and the model
 #activate env
 source .venv/bin/activate
 
-python example_files/train.py  
+python data/train.py  
 ```
 
 In order to test that predict works on a test set you created run:
 
 ```bash
-python example_files/predict.py models/linear_regression_model.sav data/X_test.csv data/y_test.csv
+python data/predict.py models/linear_regression_model.sav data/X_test.csv data/y_test.csv
 ```
 
 ## Limitations
