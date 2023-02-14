@@ -23,7 +23,7 @@ to_keep = [
  'L3_AER_AI_absorbing_aerosol_index',
  'L3_SO2_SO2_column_number_density',
  'L3_SO2_SO2_column_number_density_amf',
- 'L3_SO2_absorbing_aerosol_index',
+ 'L3_SO2_absorbing_aerosol_index'
  ]
 
 drop=[
