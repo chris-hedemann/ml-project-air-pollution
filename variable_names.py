@@ -16,20 +16,14 @@ to_keep = [
  'L3_CO_H2O_column_number_density',
  'L3_HCHO_tropospheric_HCHO_column_number_density',
  'L3_HCHO_tropospheric_HCHO_column_number_density_amf',
- 'L3_CLOUD_cloud_base_height',
- 'L3_CLOUD_cloud_base_pressure',
- 'L3_CLOUD_cloud_fraction',
- 'L3_CLOUD_cloud_optical_depth',
- 'L3_CLOUD_cloud_top_height',
  'L3_CLOUD_cloud_top_pressure',
  'L3_CLOUD_surface_albedo',
+ 'L3_CLOUD_cloud_fraction',
+ 'L3_CLOUD_cloud_optical_depth',
  'L3_AER_AI_absorbing_aerosol_index',
  'L3_SO2_SO2_column_number_density',
  'L3_SO2_SO2_column_number_density_amf',
- 'L3_SO2_absorbing_aerosol_index',
- 'L3_CH4_CH4_column_volume_mixing_ratio_dry_air',
- 'L3_CH4_aerosol_height',
- 'L3_CH4_aerosol_optical_depth',
+ 'L3_SO2_absorbing_aerosol_index'
  ]
 
 drop=[
@@ -85,4 +79,10 @@ drop=[
  'L3_CH4_solar_azimuth_angle',
  'L3_CH4_solar_zenith_angle',
  'Place_ID X Date',
+ 'L3_CH4_CH4_column_volume_mixing_ratio_dry_air',
+ 'L3_CH4_aerosol_height',
+ 'L3_CH4_aerosol_optical_depth'
+ 'L3_CLOUD_cloud_base_height',
+ 'L3_CLOUD_cloud_base_pressure',
+ 'L3_CLOUD_cloud_top_height',
  ]
