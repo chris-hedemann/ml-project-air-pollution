@@ -43,17 +43,17 @@ def time_features(df):
     return df
 
 
-def prior_features(df):
+def prior_features(df,
+                   list_features_shift=['Place_ID','precipitable_water_entire_atmosphere',
+        'relative_humidity_2m_above_ground',
+        'specific_humidity_2m_above_ground', 'temperature_2m_above_ground', 
+        'winddir', 'windspeed']):
     '''Function to create a dataframe with values of the prior day. Might result in missing rows (when no prior day is found)
     Args:   df DataFrame
             lists with features to keep or drop
     Returns: df'''
-
-    list_features_shift = ['Place_ID','precipitable_water_entire_atmosphere',
-        'relative_humidity_2m_above_ground',
-        'specific_humidity_2m_above_ground', 'temperature_2m_above_ground', 
-        'winddir', 'windspeed', 'weekday']       
-    list_features_drop = ['Place_ID_prior', 'deltatime', 'bool_arr', 'bool_arr2', 'weekday_prior']
+      
+    list_features_drop = ['Place_ID_prior', 'deltatime', 'bool_arr', 'bool_arr2']
 
     # create new dataframe trunk with data of the days including target values
     df_next = df
