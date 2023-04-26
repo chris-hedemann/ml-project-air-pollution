@@ -1,8 +1,8 @@
 # ML project
-This is a notebook on our ML project.
+This is a notebook on our ML project for predicting air pollution in African cities. We are still cleaning things up, please come back in a week or so :-)
+27.4.2023
 
-
-Topic: Real estate agent's recommendations for a customer (buyer), based on data about house units sold in one year.
+Topic: Prediction PM10 concentrations based on weather conditions in African cities.
 Team: Christopher Hedemann, Stephen Kelly, Sarah Wiesner
 Bootcamp: neuefische Data Science 01/2023
 
